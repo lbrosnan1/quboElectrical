@@ -4640,16 +4640,6 @@
 		)
 		(uuid "7532cb5d-3b58-4138-b62b-ae1d07c2be59")
 	)
-	(text "PRETTY PLEASE SAVE (this is a git test)"
-		(exclude_from_sim no)
-		(at 36.068 17.018 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ca13a03b-8c84-47f7-a53e-8cf400968a8f")
-	)
 	(text "10K"
 		(exclude_from_sim no)
 		(at 266.7 151.638 90)
