@@ -4935,6 +4935,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NEED BJTS\nKEEP CAPs THE SAME for NOW\nHOLES\nVIAS VIAS VIAS"
+		(exclude_from_sim no)
+		(at 169.926 298.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d518d51-85ed-402e-b64c-2e4042536585")
+	)
 	(text "HSE\n"
 		(exclude_from_sim no)
 		(at 451.866 210.312 0)
