@@ -4539,16 +4539,6 @@
 		)
 		(uuid "7532cb5d-3b58-4138-b62b-ae1d07c2be59")
 	)
-	(text "test\n"
-		(exclude_from_sim no)
-		(at 33.528 23.114 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c1d1c30e-86e5-449a-a664-da60d99af20b")
-	)
 	(text "10K"
 		(exclude_from_sim no)
 		(at 266.7 151.638 90)
