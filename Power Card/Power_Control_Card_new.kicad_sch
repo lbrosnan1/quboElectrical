@@ -2565,107 +2565,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -4901,6 +4800,12 @@
 		(uuid "64829ddb-0af4-495e-b9f2-15697ba591d2")
 	)
 	(junction
+		(at 270.51 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "670c24c9-c974-42a6-8685-60eaf2dc2205")
+	)
+	(junction
 		(at 146.05 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5169,6 +5074,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f639bff2-4ac3-409a-9e09-f0702b01470e")
+	)
+	(junction
+		(at 262.89 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb5887f3-077c-4013-885b-f39986b6ee0b")
 	)
 	(junction
 		(at 83.82 149.86)
@@ -5872,6 +5783,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 91.44) (xy 273.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc31bd0-3d52-4dcf-b131-c682615ec8f9")
+	)
+	(wire
+		(pts
 			(xy 118.11 91.44) (xy 120.65 91.44)
 		)
 		(stroke
@@ -6082,6 +6003,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 91.44) (xy 265.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890d9613-72fd-45e1-8592-add498dcbbfe")
+	)
+	(wire
+		(pts
 			(xy 152.4 177.8) (xy 152.4 173.99)
 		)
 		(stroke
@@ -6139,16 +6070,6 @@
 			(type default)
 		)
 		(uuid "918c0c40-bf27-418a-bdad-d8e3357f8e0d")
-	)
-	(wire
-		(pts
-			(xy 265.43 91.44) (xy 265.43 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "944df014-3e53-48c9-8a16-e80a120c117e")
 	)
 	(wire
 		(pts
@@ -6439,6 +6360,16 @@
 			(type default)
 		)
 		(uuid "bfa3bb0e-e942-4556-a314-5c5214f49550")
+	)
+	(wire
+		(pts
+			(xy 270.51 91.44) (xy 270.51 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b155e0-c7e1-4486-a196-206a0936b299")
 	)
 	(wire
 		(pts
@@ -7032,7 +6963,7 @@
 	)
 	(global_label "NJSW1"
 		(shape input)
-		(at 265.43 95.25 270)
+		(at 270.51 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7042,7 +6973,7 @@
 		)
 		(uuid "dc3c3234-015d-4059-8bb7-86437e9daee2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.43 104.4037 90)
+			(at 270.51 104.4037 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,73 +7169,6 @@
 			(project "Backplane"
 				(path "/73356aaf-05d8-4115-a1e4-2bd56b8d572b"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 273.05 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0895341a-4a8f-4510-abb2-be33a26c0e30")
-		(property "Reference" "#PWR011"
-			(at 273.05 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 273.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "638dd590-6939-4673-862c-32e2a7a4fd65")
-		)
-		(instances
-			(project ""
-				(path "/377f47a5-9f77-4c4b-95f8-e010ccda5577"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10006,73 +9870,6 @@
 			(project "Power_Control_Card_new"
 				(path "/377f47a5-9f77-4c4b-95f8-e010ccda5577"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 270.51 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e245fe0c-d588-4d2c-823e-dcc1ba9c39f9")
-		(property "Reference" "#PWR012"
-			(at 270.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 270.51 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86680a04-4431-400c-b1c1-ad94a9a099b3")
-		)
-		(instances
-			(project "Power_Control_Card_new"
-				(path "/377f47a5-9f77-4c4b-95f8-e010ccda5577"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
