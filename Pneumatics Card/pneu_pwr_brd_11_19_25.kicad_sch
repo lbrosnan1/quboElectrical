@@ -9191,7 +9191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "22nF"
 			(at 69.342 124.968 0)
 			(effects
 				(font
@@ -9615,7 +9615,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "3.9k"
 			(at 52.07 139.7 0)
 			(effects
 				(font
@@ -10165,7 +10165,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "0.47u"
 			(at 90.17 124.46 0)
 			(effects
 				(font
@@ -11858,7 +11858,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1k"
 			(at 52.07 129.54 0)
 			(effects
 				(font
