@@ -16787,7 +16787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCA4307:SOP65P490X110-8N"
+		(property "Footprint" "custom_components:SOIC8_DGK_TEX"
 			(at 99.06 64.77 0)
 			(effects
 				(font
