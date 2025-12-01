@@ -13474,7 +13474,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J7"
-			(at 2.6975 3.1375 0)
+			(at -0.03 -3.03 0)
 			(layer "F.SilkS")
 			(uuid "5b6baa26-d318-4203-8b45-bd0471bae717")
 			(effects
@@ -25070,13 +25070,14 @@
 		(uuid "62f028ee-11b0-42b0-99dc-39f0bb163fca")
 	)
 	(gr_text "USART_TX"
-		(at 122.23 81.11 90)
+		(at 122.23 81.06 90)
 		(layer "F.SilkS")
 		(uuid "154f34ba-1c35-4e39-ac84-16995aee0995")
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.075)
+				(thickness 0.125)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -25089,6 +25090,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3.3V GND GND"
+		(at 138.02 61.23 90)
+		(layer "F.SilkS")
+		(uuid "2c7afc3d-8807-4762-a225-e742577dff15")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
@@ -25165,6 +25178,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "NRST SWDIO SWCLK\n"
+		(at 127.04 73.49 0)
+		(layer "F.SilkS")
+		(uuid "a61453a4-db95-404a-addc-46977cab35bf")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Fuse"
 		(at 95.17 74.14 0)
 		(layer "F.SilkS")
@@ -25184,7 +25209,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.075)
+				(thickness 0.125)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
