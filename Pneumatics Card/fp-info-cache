@@ -1,4 +1,4 @@
-24772285341519973
+24774049378898111
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99557,6 +99557,13 @@ custom_components
 SOIC8_4P9X3P9MC_MCH
 
 ATA6561-GAQW-N 
+0
+8
+8
+custom_components
+SOIC8_DGK_TEX
+
+TCA4307DGKR 
 0
 8
 8
