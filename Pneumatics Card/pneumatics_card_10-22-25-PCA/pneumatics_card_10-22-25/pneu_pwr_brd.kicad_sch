@@ -5412,28 +5412,6 @@
 			)
 		)
 	)
-	(global_label "USART-"
-		(shape input)
-		(at 35.56 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "40cb9954-b5e2-47c5-a490-b4f853042033")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.9838 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SLN1+"
 		(shape input)
 		(at 248.92 27.94 180)
@@ -5518,28 +5496,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USART+"
-		(shape input)
-		(at 35.56 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "59788dc0-c669-4b27-84d0-d8d00ffd648c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.9838 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8241,75 +8197,6 @@
 			(project "pneu_pwr_brd"
 				(path "/c299c6f2-212e-472c-8577-e7ed124513dd"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 30.48 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ed496d7-fa24-4331-9127-f1f4ac9baf36")
-		(property "Reference" "J13"
-			(at 31.75 55.88 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "2X1"
-			(at 33.02 64.77 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 30.48 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "812d0b72-6eb2-4223-b5ed-cf4c665b4ad5")
-		)
-		(pin "2"
-			(uuid "9045cbcb-2a0f-4021-9eff-80256941399f")
-		)
-		(instances
-			(project "pneu_pwr_brd"
-				(path "/c299c6f2-212e-472c-8577-e7ed124513dd"
-					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -12487,7 +12374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_components:SOIC8_DGK_TEX"
+		(property "Footprint" "TCA4307:SOP65P490X110-8N"
 			(at 96.52 35.56 0)
 			(effects
 				(font
