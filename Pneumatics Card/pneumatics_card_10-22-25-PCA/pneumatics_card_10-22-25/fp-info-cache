@@ -1,4 +1,4 @@
-26643421801202827
+26634610375616589
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62642,13 +62642,6 @@ heatsink
 0
 0
 0
-I2C_Buffer
-T_1
-
-
-0
-4
-1
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -73408,27 +73401,6 @@ threaded screw
 0
 4
 1
-NTR0202PLT1G
-SOT-23_ONS
-
-NTR0202PLT1G 
-0
-3
-3
-NTR0202PLT1G
-SOT-23_ONS-L
-
-NTR0202PLT1G 
-0
-3
-3
-NTR0202PLT1G
-SOT-23_ONS-M
-
-NTR0202PLT1G 
-0
-3
-3
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -99231,13 +99203,6 @@ Logo WEEE
 0
 0
 0
-TCA4307
-SOP65P490X110-8N
-
-
-0
-8
-8
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
