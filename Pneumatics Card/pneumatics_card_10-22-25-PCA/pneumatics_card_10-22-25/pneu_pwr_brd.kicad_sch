@@ -8212,7 +8212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60321400-418b-4857-9c44-28a79395059b")
-		(property "Reference" "R155"
+		(property "Reference" "R15"
 			(at 68.58 49.53 0)
 			(effects
 				(font
@@ -8265,7 +8265,7 @@
 		(instances
 			(project "pneu_pwr_brd"
 				(path "/c299c6f2-212e-472c-8577-e7ed124513dd"
-					(reference "R155")
+					(reference "R15")
 					(unit 1)
 				)
 			)
