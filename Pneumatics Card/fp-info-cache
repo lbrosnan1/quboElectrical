@@ -1,4 +1,4 @@
-24774049378898111
+24782879508535354
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99526,6 +99526,20 @@ http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf
 2
 2
 custom_components
+CON14_2X7_TUBD_BCS_SAI
+
+BCS-107-L-D-PE-BE 
+0
+28
+28
+custom_components
+CONN_ASP-129637-13_SAI
+
+ASP-129637-13 
+0
+55
+55
+custom_components
 DBV0005A_L
 
 TLV70430DBVR 
@@ -99534,6 +99548,13 @@ TLV70430DBVR
 5
 custom_components
 ESC
+
+
+0
+7
+7
+custom_components
+ESC_blue_robotics
 
 
 0
@@ -99553,6 +99574,20 @@ BQ40Z80RSMR
 0
 33
 33
+custom_components
+SAMTEC_ASP-129637-03
+
+
+0
+159
+159
+custom_components
+SAMTEC_BCS-120-X-D-PE-BE
+
+
+0
+40
+40
 custom_components
 SOIC8_4P9X3P9MC_MCH
 
