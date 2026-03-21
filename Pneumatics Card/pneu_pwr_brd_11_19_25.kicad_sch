@@ -15024,7 +15024,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "63d7ac9d-5829-43c5-82e4-c07c9123ca47")
+			(uuid "63d7ac9d-5829-43c5-82e4-c07c9123ca48")
 		)
 		(instances
 			(project "pneu_pwr_brd_11_19_25"
@@ -17089,7 +17089,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "816fb72e-9ab4-4390-90ac-dfe646846b21")
+			(uuid "816fb72e-9ab4-4390-90ac-dfe646846b22")
 		)
 		(instances
 			(project "pneu_pwr_brd_11_19_25"

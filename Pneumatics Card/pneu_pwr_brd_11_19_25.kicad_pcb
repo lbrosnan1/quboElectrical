@@ -110,10 +110,10 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -143,7 +143,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "./")
+			(outputdirectory "Pneumatics Gerber 2026/")
 		)
 	)
 	(net 0 "")
@@ -1151,6 +1151,7 @@
 		(property "Reference" "J11"
 			(at 2.24 2.21 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b0a54096-2cc3-4e21-9281-3aaa68b21cc8")
 			(effects
 				(font
@@ -5264,6 +5265,7 @@
 		(property "Reference" "C1"
 			(at -1.33 0.0125 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "28e41cc3-423a-4f10-9c66-26b430ae2930")
 			(effects
 				(font
@@ -5808,13 +5810,13 @@
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "S1_TP1"
-			(at 0 1.46 0)
+			(at 3.97 0 0)
 			(layer "F.SilkS")
 			(uuid "d7d464a5-bb8d-4f4c-adc2-6a6fca9e475f")
 			(effects
 				(font
-					(size 0.3 0.3)
-					(thickness 0.0375)
+					(size 1 1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -6262,14 +6264,15 @@
 		(at 107.24 81.15)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
-		(property "Reference" "SCL_ext1"
-			(at 0.02 -1.41 0)
+		(property "Reference" "SCL"
+			(at 2.69 -0.01 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "46df0018-2c04-4f9c-8c5c-eb45fb01a59c")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.0625)
+					(size 1 1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -10593,7 +10596,7 @@
 		(property "Reference" "R14"
 			(at -1.935 0 180)
 			(layer "F.SilkS")
-			(uuid "59aabdd8-854f-4aa2-8122-b7d54c8a934f")
+			(uuid "00d00bf5-f175-47c4-9b2c-89c3d0803181")
 			(effects
 				(font
 					(size 0.3 0.3)
@@ -10604,7 +10607,7 @@
 		(property "Value" "10k"
 			(at 0 1.43 180)
 			(layer "F.Fab")
-			(uuid "4bdfeb73-d42f-455a-b2c7-7bb4c67a0ca7")
+			(uuid "1d51a1d3-7f13-4883-b61c-e7c57643d07a")
 			(effects
 				(font
 					(size 1 1)
@@ -10617,7 +10620,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "50dde660-07fc-4cb8-9d8b-0e72f972e0ba")
+			(uuid "a578dfc2-3ccc-48d7-8c22-040ad3d8ef6f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10630,7 +10633,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b5fb573-5cb1-40c1-9a41-51b7a19346d3")
+			(uuid "3b54542b-4d47-49fd-80e8-7cf97b29c53e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11715,13 +11718,13 @@
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "S2_TP1"
-			(at 0 1.39 0)
+			(at 4.11 0.1 0)
 			(layer "F.SilkS")
 			(uuid "61208345-7478-4305-8e1a-1eafd6fde9f3")
 			(effects
 				(font
-					(size 0.3 0.3)
-					(thickness 0.0375)
+					(size 1 1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -11968,14 +11971,15 @@
 		(at 107.27 78.48)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
-		(property "Reference" "SDA_ext1"
-			(at 0 -1.56 0)
+		(property "Reference" "SDA"
+			(at 2.59 -0.02 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c09253f6-6c15-4375-9e12-1dc25b500efa")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.0625)
+					(size 1 1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -12498,7 +12502,7 @@
 		(property "Reference" "R18"
 			(at -1.945 0 180)
 			(layer "F.SilkS")
-			(uuid "82b8089e-c3db-4e68-97d0-0ba0b04a74cb")
+			(uuid "14ac1eb0-3195-4483-b660-ca3bef6e882b")
 			(effects
 				(font
 					(size 0.3 0.3)
@@ -12509,7 +12513,7 @@
 		(property "Value" "10k"
 			(at 0 1.43 180)
 			(layer "F.Fab")
-			(uuid "60782172-1a35-4ee6-a477-571f1929c94c")
+			(uuid "03727c32-12ca-40fa-b4c2-d9c10657dac5")
 			(effects
 				(font
 					(size 1 1)
@@ -12522,7 +12526,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a243b06-668c-4b6b-be4f-1b6d058e3ce5")
+			(uuid "cf71f385-2989-4bb3-ac1b-63f92ba0014b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12535,7 +12539,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48f5a057-eca3-4542-89ec-add8b2d0a21e")
+			(uuid "d07125f1-3389-48c5-94aa-c28937702a86")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13597,6 +13601,7 @@
 		(property "Reference" "J13"
 			(at 1.06 -3.02 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4c421b31-ca7e-4aa1-a23f-a98d5b277f74")
 			(effects
 				(font
@@ -14254,7 +14259,7 @@
 		(property "Reference" "R17"
 			(at -1.95 -0.325 180)
 			(layer "F.SilkS")
-			(uuid "986aca3d-d2ad-4b7d-bd3b-4ed490854ade")
+			(uuid "9271bd48-b2ae-4171-9bc8-196a4d3754a4")
 			(effects
 				(font
 					(size 0.3 0.3)
@@ -14265,7 +14270,7 @@
 		(property "Value" "10k"
 			(at 0 1.43 180)
 			(layer "F.Fab")
-			(uuid "dd6179b1-3773-43c6-93e2-4ca67f9deeda")
+			(uuid "3ee8938c-8ff3-439a-9ab7-1569480161a0")
 			(effects
 				(font
 					(size 1 1)
@@ -14278,7 +14283,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "636ea64d-c4b1-4c14-b975-17b205ec63be")
+			(uuid "c77ea534-6f80-48af-8f31-78f5bc562353")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14291,7 +14296,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf106b1c-340f-41b8-9ee8-953adfb07db8")
+			(uuid "ad807fe7-6e6f-40d0-a03b-7161471efbc2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15950,13 +15955,14 @@
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "S4_TP1"
-			(at -0.12 1.45 0)
+			(at 3.78 0.24 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "45ba987c-ef7d-4c68-af48-9d4710d5d01e")
 			(effects
 				(font
-					(size 0.3 0.3)
-					(thickness 0.0375)
+					(size 1 1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -16204,13 +16210,13 @@
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "S3_TP1"
-			(at -1.65 0 90)
+			(at 0.21 1.9 180)
 			(layer "F.SilkS")
 			(uuid "79650e27-1836-4108-a5eb-2e184f499aa7")
 			(effects
 				(font
-					(size 0.3 0.3)
-					(thickness 0.0375)
+					(size 1 1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -17062,6 +17068,7 @@
 		(property "Reference" "C2"
 			(at -0.01 -3.28 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "03941475-0f64-4668-88d3-e6ae78dad894")
 			(effects
 				(font
@@ -19320,6 +19327,7 @@
 		(property "Reference" "J10"
 			(at -2.16 2.5 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "741f6d67-ad6d-469f-88e3-bf42941ba454")
 			(effects
 				(font
@@ -20121,13 +20129,13 @@
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "GND_TP1"
-			(at 0 -1.56 0)
+			(at 1.89 -2.25 90)
 			(layer "F.SilkS")
 			(uuid "c3c35206-3f52-44e9-bd64-42c7bc83ec22")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -20923,13 +20931,13 @@
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "3.3V_TP_reg1"
-			(at 0.03 -1.27 0)
+			(at 0.06 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "d24e4591-670f-4811-bed0-89fe70ac4d60")
 			(effects
 				(font
-					(size 0.25 0.25)
-					(thickness 0.03125)
+					(size 1 1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -21470,6 +21478,7 @@
 		(property "Reference" "R2"
 			(at -1.36 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c12169c4-71b1-41f6-8f77-0510dbbbe4bb")
 			(effects
 				(font
@@ -24649,6 +24658,7 @@
 		(property "Reference" "R1"
 			(at -1.36 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3cd0a8f6-a6b5-49bd-b089-b27272b17b3b")
 			(effects
 				(font
@@ -24851,6 +24861,7 @@
 		(property "Reference" "C3"
 			(at -1.19 -2.6 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f9dab3ce-71b9-428b-bcb4-89e770aadd1a")
 			(effects
 				(font
@@ -26890,6 +26901,7 @@
 		(property "Reference" "C12"
 			(at 0 -0.7 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "43f923d8-a871-40c8-9cf2-f061b9e693a6")
 			(effects
 				(font
@@ -27862,7 +27874,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "f0b9f691-53c8-4e3f-bb59-e5c7e2eab62d")
-		(at 121.790913 51.321175)
+		(at 121.750913 51.551175)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -29488,13 +29500,13 @@
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "3.3V_TP_stm1"
-			(at -1.53 -0.13 90)
+			(at -2.01 -3.92 90)
 			(layer "F.SilkS")
 			(uuid "715fae5c-fedf-491f-a052-a3a496bc48e2")
 			(effects
 				(font
-					(size 0.25 0.25)
-					(thickness 0.03125)
+					(size 1 1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -30236,13 +30248,13 @@
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "12V_TP1"
-			(at 0 -1.56 0)
+			(at -1.79 -0.85 270)
 			(layer "F.SilkS")
 			(uuid "8b82d9ca-b708-42ed-9298-62cc0874fc9f")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.0625)
+					(size 1 1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -30854,15 +30866,50 @@
 		(layer "Edge.Cuts")
 		(uuid "62f028ee-11b0-42b0-99dc-39f0bb163fca")
 	)
-	(gr_text "USART_TX"
-		(at 122.04 81.39 90)
+	(gr_text "SWCLK"
+		(at 132.14 72.73 270)
+		(layer "F.SilkS")
+		(uuid "05a0adfa-1d97-4ddf-a163-70035dc75744")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 137.04 59.36 0)
+		(layer "F.SilkS")
+		(uuid "10ab4ffa-e088-452e-90dd-f908b0bb7039")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RX"
+		(at 130.77 82.81 90)
 		(layer "F.SilkS")
 		(uuid "154f34ba-1c35-4e39-ac84-16995aee0995")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "S4"
+		(at 92.93 46.16 0)
+		(layer "F.SilkS")
+		(uuid "172f69e0-be0b-422e-8d40-7c411ffa18f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
@@ -30879,14 +30926,14 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "3.3V GND GND"
-		(at 138.02 61.23 90)
+	(gr_text "SWDIO"
+		(at 129.41 72.73 270)
 		(layer "F.SilkS")
-		(uuid "2c7afc3d-8807-4762-a225-e742577dff15")
+		(uuid "3263eda6-afbb-4a88-90c6-49abb5d139bc")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.0625)
+				(size 1 1)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
@@ -30916,25 +30963,25 @@
 		)
 	)
 	(gr_text "SDA"
-		(at 113.29 80.48 90)
+		(at 113.19 80.28 90)
 		(layer "F.SilkS")
 		(uuid "652829f3-1931-498d-882d-f1cea8a208b6")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.0625)
+				(size 1 1)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "CAN+"
-		(at 86.49 55.8 0)
+		(at 86.42 56.31 0)
 		(layer "F.SilkS")
 		(uuid "714c9fc9-a8a4-49c1-ab49-0c713c4493d7")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.0625)
+				(size 1 1)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
@@ -31035,6 +31082,18 @@
 			)
 		)
 	)
+	(gr_text "TX"
+		(at 122.21 82.82 90)
+		(layer "F.SilkS")
+		(uuid "80fe1525-7932-44c1-b27f-fab51eb759a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "ATA6561"
 		(at 93.05 48.16 0)
 		(layer "F.SilkS")
@@ -31047,13 +31106,13 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "+12V"
-		(at 90.43 69.66 0)
+	(gr_text "SCL"
+		(at 121.57 80.11 90)
 		(layer "F.SilkS")
-		(uuid "9045a9ae-e2a8-48c1-b8db-9d5562198d1e")
+		(uuid "940c02cf-8f25-4fdc-9365-d97f7dbe0ffe")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 1 1)
 				(thickness 0.125)
 			)
 			(justify left bottom)
@@ -31077,19 +31136,19 @@
 		(uuid "9825ed64-c3db-4a4a-8060-cce8c704ab30")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.0625)
+				(size 1 1)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "NRST SWDIO SWCLK\n"
-		(at 127.04 73.49 0)
+	(gr_text "SCL"
+		(at 108.46 81.73 0)
 		(layer "F.SilkS")
-		(uuid "a61453a4-db95-404a-addc-46977cab35bf")
+		(uuid "a4c2104f-8e98-47d5-afd9-a7ea42ced4b8")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 1 1)
 				(thickness 0.125)
 			)
 			(justify left bottom)
@@ -31107,39 +31166,62 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "USART_RX"
-		(at 129.96 81.06 90)
+	(gr_text "3V3"
+		(at 137.2 62.08 0)
 		(layer "F.SilkS")
-		(uuid "cf885605-5b43-4660-9afd-51afc43ab8ef")
+		(uuid "c2976ceb-f2ff-4adc-b50d-fa4218d34bf4")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 1 1)
 				(thickness 0.125)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "SCL"
-		(at 120.98 81.13 90)
+	(gr_text "SDA"
+		(at 108.47 79.05 0)
 		(layer "F.SilkS")
-		(uuid "d1ff66fd-193b-4db6-b9ed-bf4b56115006")
+		(uuid "c598b5c8-3745-4f31-ad15-2ea21f2bdc18")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "NRST"
+		(at 126.55 72.68 270)
+		(layer "F.SilkS")
+		(uuid "d5a21f98-956c-459f-a55d-c3cb0ca1d7f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 137.04 56.65 0)
+		(layer "F.SilkS")
+		(uuid "d78fc340-44e5-4616-99e0-ae0468b6d042")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "CAN-\nCAN+"
-		(at 81.39 51.77 270)
+		(at 80.57 51.55 270)
 		(layer "F.SilkS")
 		(uuid "f7b1ebc2-6335-4f87-9d29-b592f2cde44e")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.0625)
+				(size 1 1)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
