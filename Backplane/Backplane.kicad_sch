@@ -9882,7 +9882,7 @@
 		(uuid 1311ebb3-ce10-4ecf-8626-bfe48bec2ddc)
 	)
 	(rectangle
-		(start 187.96 160.02)
+		(start 185.928 160.02)
 		(end 267.97 232.41)
 		(stroke
 			(width 0)
@@ -9967,7 +9967,7 @@
 		)
 		(uuid "0818028e-489f-45f7-a7fc-f542251078d0")
 	)
-	(text "ESC Card 1"
+	(text "Thruster Card 1"
 		(exclude_from_sim no)
 		(at 30.48 48.26 0)
 		(effects
@@ -10000,7 +10000,7 @@
 		)
 		(uuid "5c8bad5c-1d18-45ba-ad18-8b0df7e5f582")
 	)
-	(text "Ethernet/peripheral card"
+	(text "Miscellaneous Card"
 		(exclude_from_sim no)
 		(at 30.48 105.41 0)
 		(effects
@@ -10102,7 +10102,7 @@
 		)
 		(uuid "ad916a69-b188-48db-bd9a-f2f9c3debb64")
 	)
-	(text "ESC Card 2\n"
+	(text "Thruster Card 2\n"
 		(exclude_from_sim no)
 		(at 30.48 76.2 0)
 		(effects
@@ -10447,6 +10447,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "436d6d77-452e-4365-90a2-08a32e9ef327")
+	)
+	(junction
+		(at 163.83 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "457cbdab-b870-4c9b-b630-238403a41f9a")
 	)
 	(junction
 		(at 247.65 62.23)
@@ -11271,6 +11277,12 @@
 		(uuid "f2c1d6af-049c-4dd7-a3dc-88e2c8432131")
 	)
 	(junction
+		(at 204.47 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2d5d59d-5be8-4edc-bfa6-e4078b7e91a5")
+	)
+	(junction
 		(at 34.29 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11960,6 +11972,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 275.59) (xy 163.83 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c34eab9-60e9-454b-9e98-eaf00a067d50")
+	)
+	(wire
+		(pts
 			(xy 95.25 90.17) (xy 97.79 90.17)
 		)
 		(stroke
@@ -12307,6 +12329,16 @@
 			(type default)
 		)
 		(uuid "311a677a-dd0f-493c-9839-33a3755b0ec6")
+	)
+	(wire
+		(pts
+			(xy 199.39 275.59) (xy 204.47 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313e9245-cabb-4871-8af4-a1499108a450")
 	)
 	(wire
 		(pts
@@ -13690,6 +13722,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 275.59) (xy 163.83 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0e7779-acbd-4f15-997f-5ca07ce796ea")
+	)
+	(wire
+		(pts
 			(xy 34.29 90.17) (xy 36.83 90.17)
 		)
 		(stroke
@@ -14517,6 +14559,16 @@
 			(type default)
 		)
 		(uuid "d7e9b7be-5815-4484-ae47-b7abe9367125")
+	)
+	(wire
+		(pts
+			(xy 213.36 275.59) (xy 204.47 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81d9fd5-4e0b-4596-9a60-48f5e417c04e")
 	)
 	(wire
 		(pts
@@ -15612,7 +15664,7 @@
 	)
 	(global_label "I2CJetson-"
 		(shape input)
-		(at 196.85 271.78 0)
+		(at 213.36 275.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15622,7 +15674,7 @@
 		)
 		(uuid "1f11132b-9c71-416a-8aec-f7e814903018")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.5999 271.78 0)
+			(at 227.1099 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16206,7 +16258,7 @@
 	)
 	(global_label "I2C-"
 		(shape input)
-		(at 196.85 274.32 0)
+		(at 199.39 278.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16216,7 +16268,7 @@
 		)
 		(uuid "5c8b878f-2451-43e6-8621-7bd579ec7ecc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.4919 274.32 0)
+			(at 207.0319 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17130,7 +17182,7 @@
 	)
 	(global_label "I2CJetson+"
 		(shape input)
-		(at 167.64 271.78 0)
+		(at 168.91 275.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17140,7 +17192,7 @@
 		)
 		(uuid "ce3d1eb0-27c3-49bf-9c8c-425877696c79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.3899 271.78 0)
+			(at 182.6599 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17372,7 +17424,7 @@
 	)
 	(global_label "I2C+"
 		(shape input)
-		(at 167.64 274.32 0)
+		(at 157.48 278.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17382,7 +17434,7 @@
 		)
 		(uuid "e7337d5b-cc4f-4222-8afd-1baaccb6845a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.2819 274.32 0)
+			(at 165.1219 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18058,6 +18110,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 163.83 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08ab393a-a7d5-4af2-99fe-d00db38c8027")
+		(property "Reference" "#PWR038"
+			(at 163.83 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 163.83 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3de21c7e-2e88-49cb-b081-cae9bc46523c")
+		)
+		(instances
+			(project "Backplane"
+				(path "/73356aaf-05d8-4115-a1e4-2bd56b8d572b"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 220.98 190.5 0)
 		(unit 1)
@@ -18254,6 +18372,72 @@
 			(project "Backplane"
 				(path "/73356aaf-05d8-4115-a1e4-2bd56b8d572b"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 204.47 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ca3e062-902e-4573-816e-25fb3b738139")
+		(property "Reference" "#PWR071"
+			(at 204.47 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 204.47 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b560af8f-43b6-4562-8796-2fffbe87c04d")
+		)
+		(instances
+			(project "Backplane"
+				(path "/73356aaf-05d8-4115-a1e4-2bd56b8d572b"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -18521,6 +18705,76 @@
 			(project "Backplane"
 				(path "/73356aaf-05d8-4115-a1e4-2bd56b8d572b"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 204.47 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c21a8f2-9357-4087-a3f5-1337f59cf2ff")
+		(property "Reference" "R4"
+			(at 207.01 270.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 207.01 273.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 205.486 272.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 204.47 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95d9fa46-5861-4755-9d4a-01c0e6e7f5ad")
+		)
+		(pin "1"
+			(uuid "6311b9db-188f-4fed-a3ef-1ac576875adf")
+		)
+		(instances
+			(project "Backplane"
+				(path "/73356aaf-05d8-4115-a1e4-2bd56b8d572b"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -19398,7 +19652,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 191.77 271.78 0)
+		(at 194.31 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19407,7 +19661,7 @@
 		(fields_autoplaced yes)
 		(uuid "3dc9033a-4122-4382-8900-80cb33789a98")
 		(property "Reference" "J25"
-			(at 192.405 266.7 0)
+			(at 194.945 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19415,7 +19669,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 192.405 269.24 0)
+			(at 194.945 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19423,7 +19677,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 191.77 271.78 0)
+			(at 194.31 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19432,7 +19686,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 271.78 0)
+			(at 194.31 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19441,7 +19695,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 191.77 271.78 0)
+			(at 194.31 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23601,7 +23855,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 162.56 271.78 0)
+		(at 152.4 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23610,7 +23864,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6933cf9-3f27-4dc7-bcdd-5a6200e0d987")
 		(property "Reference" "J26"
-			(at 163.195 266.7 0)
+			(at 153.035 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23618,7 +23872,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 163.195 269.24 0)
+			(at 153.035 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23626,7 +23880,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 162.56 271.78 0)
+			(at 152.4 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23635,7 +23889,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 271.78 0)
+			(at 152.4 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23644,7 +23898,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 162.56 271.78 0)
+			(at 152.4 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25722,6 +25976,76 @@
 			(project "Backplane"
 				(path "/73356aaf-05d8-4115-a1e4-2bd56b8d572b"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc7dfbab-d7e3-4c8b-8077-c8660a69554e")
+		(property "Reference" "R3"
+			(at 166.37 270.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 166.37 273.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 164.846 272.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 163.83 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45f7b7a7-fba0-4b23-9af6-d46a8feda65f")
+		)
+		(pin "1"
+			(uuid "63ac0cc6-ecdf-44c7-9a74-8ccf35ff812d")
+		)
+		(instances
+			(project ""
+				(path "/73356aaf-05d8-4115-a1e4-2bd56b8d572b"
+					(reference "R3")
 					(unit 1)
 				)
 			)
