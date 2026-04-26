@@ -11375,10 +11375,6 @@
 		(uuid "2d0938ac-8b51-4166-98e6-26436aac27db")
 	)
 	(no_connect
-		(at 227.33 34.29)
-		(uuid "30d4a1d0-416d-4206-bab8-15abf2789fdc")
-	)
-	(no_connect
 		(at 179.07 119.38)
 		(uuid "3702f377-7821-475c-89e8-35213704e41b")
 	)
@@ -11461,10 +11457,6 @@
 	(no_connect
 		(at 212.09 62.23)
 		(uuid "80760ae7-e3fd-4645-9c7f-c6054d50c2f1")
-	)
-	(no_connect
-		(at 219.71 34.29)
-		(uuid "8cf3982f-a080-4b2d-966d-99b111bf4bf2")
 	)
 	(no_connect
 		(at 209.55 62.23)
@@ -11969,6 +11961,16 @@
 			(type default)
 		)
 		(uuid "1ad9f775-e957-4c70-a607-1c516ee9ce06")
+	)
+	(wire
+		(pts
+			(xy 227.33 38.1) (xy 227.33 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1beca540-066d-41b0-9167-c331f1ce6a22")
 	)
 	(wire
 		(pts
@@ -13799,6 +13801,16 @@
 			(type default)
 		)
 		(uuid "a256cd47-0a97-47c7-85cc-958918c46ef2")
+	)
+	(wire
+		(pts
+			(xy 219.71 38.1) (xy 219.71 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a292509a-91ac-4241-9d53-412868dbe500")
 	)
 	(wire
 		(pts
@@ -17314,6 +17326,28 @@
 	)
 	(global_label "I2C+"
 		(shape input)
+		(at 219.71 38.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d04f367f-2a01-4802-b596-1e0499dcd179")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 45.7419 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C+"
+		(shape input)
 		(at 273.05 63.5 270)
 		(fields_autoplaced yes)
 		(effects
@@ -17721,6 +17755,28 @@
 		(uuid "f52b0405-402c-44a6-bdf6-fb61ee607973")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.73 104.5247 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C-"
+		(shape input)
+		(at 227.33 38.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9435e99-b651-407e-9e90-c54faf619990")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 45.7419 90)
 			(effects
 				(font
 					(size 1.27 1.27)
