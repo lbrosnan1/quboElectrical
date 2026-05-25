@@ -1,0 +1,11 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J11,J33,J17,J5,J18,J13,J8,J15,J29,J31,J34,J14,J9,J35,J28,J7,J37,J10,J32,J30,J27,J36";"JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical";22;"Conn_01x02";;;
+2;"J24,J25,J26,J21,J23,J20,J22,J19";"PinHeader_1x02_P2.54mm_Vertical";8;"Conn_01x02_Pin";;;
+3;"R2,R1";"R_0805_2012Metric";2;"120";;;
+4;"R4,R3";"R_0805_2012Metric";2;"4.7k";;;
+5;"J3,J2,J1,J4";"CONN_650470-5_TYC";4;"~";;;
+6;"U1";"SOIC-8_3.9x4.9mm_P1.27mm";1;"~";;;
+7;"J6";"SUPERSABRE_2CIRCUIT";1;"1720420202";;;
+8;"J12";"Molex_Mini-Fit_Jr_5566-24A_2x12_P4.20mm_Vertical";1;"Conn_02x12_Odd_Even";;;
+9;"C2";"C_0805_2012Metric";1;"22uF";;;
+10;"C1,C3";"C_0805_2012Metric";2;"100nF";;;

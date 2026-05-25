@@ -508,7 +508,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Thruster_Control_Card.step",
       "svg": "",
       "vrml": ""
     },
