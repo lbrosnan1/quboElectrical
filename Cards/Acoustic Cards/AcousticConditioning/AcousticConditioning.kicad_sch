@@ -846,6 +846,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 106.68 17.78)
+		(end 281.94 78.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f3c37c1-d94f-42bb-8e55-18b701be8d93)
+	)
+	(text "bandpass filter"
+		(exclude_from_sim no)
+		(at 182.88 15.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "78d6318f-e04b-4c03-87e5-3c15e4459fc2")
+	)
 	(text "Charge Amplifier"
 		(exclude_from_sim no)
 		(at 81.534 122.174 0)
@@ -877,6 +899,12 @@
 		(uuid "0472db8f-7c80-4e72-9f38-bcc0a0f9c8fb")
 	)
 	(junction
+		(at 130.81 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08bea55a-23ac-47da-828c-59cf4107a932")
+	)
+	(junction
 		(at 54.61 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -887,6 +915,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ba3af79-38cf-4a6e-9dec-3f624555b8ea")
+	)
+	(junction
+		(at 143.51 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ff9adcb-6086-4322-aa6b-af2d4259349f")
+	)
+	(junction
+		(at 229.87 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69709c10-453d-42c7-9bd2-30245f628e5e")
 	)
 	(junction
 		(at 26.67 40.64)
@@ -901,10 +941,88 @@
 		(uuid "805f6db6-545a-4c27-84ef-be4967b36487")
 	)
 	(junction
+		(at 219.71 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88845dbf-f248-4844-9765-a327ffe78a67")
+	)
+	(junction
+		(at 180.34 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a80e7df9-c19b-4a93-a498-09508ad95aae")
+	)
+	(junction
+		(at 170.18 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a86fcd14-0733-46fe-9107-9767a56ba453")
+	)
+	(junction
 		(at 26.67 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b59caf6d-e4b4-42d4-81b7-ac97645838f9")
+	)
+	(junction
+		(at 170.18 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be95d35f-4a7d-42e8-898a-334989ac4ffb")
+	)
+	(junction
+		(at 219.71 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c134f4e1-bbcf-418f-b750-80e5d625c21e")
+	)
+	(junction
+		(at 193.04 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e00df813-7a0a-45e0-bd72-a2b3dfbd830e")
+	)
+	(junction
+		(at 242.57 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e03871b4-7085-4ef5-9871-46d86455a538")
+	)
+	(junction
+		(at 269.24 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f64c5846-9d6a-4b12-976c-8b82e2bb740a")
+	)
+	(wire
+		(pts
+			(xy 180.34 30.48) (xy 193.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0236191b-900f-4ce6-a943-cfad162c2051")
+	)
+	(wire
+		(pts
+			(xy 229.87 33.02) (xy 229.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b780ad-345c-4c45-8fcb-26c2f5804fbd")
+	)
+	(wire
+		(pts
+			(xy 229.87 60.96) (xy 229.87 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f8cb31-e84a-409c-b58a-84e370d8eb95")
 	)
 	(wire
 		(pts
@@ -915,6 +1033,16 @@
 			(type default)
 		)
 		(uuid "0681e29c-796e-4332-a0dc-b95da54242a7")
+	)
+	(wire
+		(pts
+			(xy 151.13 27.94) (xy 170.18 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f81ae35-9cb3-498b-8419-e85f9c815a3b")
 	)
 	(wire
 		(pts
@@ -938,6 +1066,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 48.26) (xy 242.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9296c3-97c6-4adc-bd40-c6887189d3b7")
+	)
+	(wire
+		(pts
 			(xy 26.67 39.37) (xy 26.67 40.64)
 		)
 		(stroke
@@ -945,6 +1083,16 @@
 			(type default)
 		)
 		(uuid "205e6993-a533-4f68-9d6f-efcf2aca3637")
+	)
+	(wire
+		(pts
+			(xy 170.18 58.42) (xy 170.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2207d0e4-b53e-41fd-a05e-7928fe01916f")
 	)
 	(wire
 		(pts
@@ -958,6 +1106,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 55.88) (xy 130.81 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260a5778-19c1-4bf5-bf54-489b43cc7e7b")
+	)
+	(wire
+		(pts
 			(xy 92.71 78.74) (xy 92.71 88.9)
 		)
 		(stroke
@@ -968,6 +1126,26 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 48.26) (xy 242.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a3199e-69be-40cc-9223-dbc70ee0b7d2")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 185.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f5a778-19fa-48c7-829b-11f1ddffa0f8")
+	)
+	(wire
+		(pts
 			(xy 26.67 59.69) (xy 26.67 62.23)
 		)
 		(stroke
@@ -975,6 +1153,16 @@
 			(type default)
 		)
 		(uuid "36d704d9-d29d-47c8-8af5-5681a90c181a")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 180.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cb3859-ebe3-4f97-948e-97a41ec6ffdf")
 	)
 	(wire
 		(pts
@@ -1008,6 +1196,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 63.5) (xy 269.24 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c78adc1-901d-4ef0-b6af-ee21c7be8231")
+	)
+	(wire
+		(pts
 			(xy 26.67 50.8) (xy 39.37 50.8)
 		)
 		(stroke
@@ -1028,6 +1226,36 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 43.18) (xy 157.48 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512144a2-5799-4cd7-8a55-2ba11cf3e78f")
+	)
+	(wire
+		(pts
+			(xy 180.34 30.48) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d41410-62f8-4f5b-b4d9-413cb5520d95")
+	)
+	(wire
+		(pts
+			(xy 229.87 33.02) (xy 242.57 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573186d8-13f2-4a38-a3a1-bfd8c64988f6")
+	)
+	(wire
+		(pts
 			(xy 92.71 88.9) (xy 76.2 88.9)
 		)
 		(stroke
@@ -1035,6 +1263,36 @@
 			(type default)
 		)
 		(uuid "65fe8dea-fe94-4f9c-8199-e27c73b39fc9")
+	)
+	(wire
+		(pts
+			(xy 247.65 66.04) (xy 254 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d2cad6-9173-4afc-9671-5f4b4a8e14ff")
+	)
+	(wire
+		(pts
+			(xy 148.59 60.96) (xy 154.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b133301-d846-496d-b3e3-3e8fd8593fa4")
+	)
+	(wire
+		(pts
+			(xy 199.39 45.72) (xy 193.04 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9105c0-f63c-4f3c-bdd8-e147bbd9e26d")
 	)
 	(wire
 		(pts
@@ -1078,6 +1336,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 45.72) (xy 193.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9856b3-d01d-45c8-b381-8b85ed54345d")
+	)
+	(wire
+		(pts
 			(xy 50.8 78.74) (xy 68.58 78.74)
 		)
 		(stroke
@@ -1095,6 +1363,16 @@
 			(type default)
 		)
 		(uuid "830a9c23-0272-4dd0-aa8b-ed82da86855c")
+	)
+	(wire
+		(pts
+			(xy 130.81 27.94) (xy 130.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919bf9ae-3c5b-49a4-9e80-d31a84244366")
 	)
 	(wire
 		(pts
@@ -1128,6 +1406,96 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 27.94) (xy 170.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9842cccb-a99b-4d82-848d-08a3bd497262")
+	)
+	(wire
+		(pts
+			(xy 128.27 55.88) (xy 130.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35655bd-d9a1-45f0-999b-62bc53f85819")
+	)
+	(wire
+		(pts
+			(xy 219.71 45.72) (xy 207.01 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a659e2d0-09e5-424c-b921-d56e0d5a6b3f")
+	)
+	(wire
+		(pts
+			(xy 250.19 33.02) (xy 269.24 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a671fb34-68a4-4bf6-a37c-3d5762a9284c")
+	)
+	(wire
+		(pts
+			(xy 198.12 63.5) (xy 204.47 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8729773-6bdf-4c84-bd59-bfb6da795efc")
+	)
+	(wire
+		(pts
+			(xy 130.81 27.94) (xy 143.51 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af62b8a3-8234-45be-ab50-29998dfde199")
+	)
+	(wire
+		(pts
+			(xy 269.24 33.02) (xy 269.24 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0cb21ad-393b-455b-909d-bbec6e28876b")
+	)
+	(wire
+		(pts
+			(xy 149.86 43.18) (xy 143.51 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2acb280-4e97-4de4-b65c-1064b64099ad")
+	)
+	(wire
+		(pts
+			(xy 200.66 30.48) (xy 219.71 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b583a62c-c1d4-4101-aec4-524cd2a97129")
+	)
+	(wire
+		(pts
 			(xy 26.67 49.53) (xy 26.67 50.8)
 		)
 		(stroke
@@ -1135,6 +1503,106 @@
 			(type default)
 		)
 		(uuid "b627656d-ad39-4fea-b0d3-651158482de7")
+	)
+	(wire
+		(pts
+			(xy 177.8 58.42) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15fc926-3b21-4af9-9bf9-2074c1dddd17")
+	)
+	(wire
+		(pts
+			(xy 242.57 60.96) (xy 254 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63762b6-beef-4182-888b-ae769b6540be")
+	)
+	(wire
+		(pts
+			(xy 120.65 55.88) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d4e08a-32f8-483b-8356-716842fbcf00")
+	)
+	(wire
+		(pts
+			(xy 219.71 30.48) (xy 219.71 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c960fde4-43f9-45f8-980b-3d230e87963e")
+	)
+	(wire
+		(pts
+			(xy 219.71 60.96) (xy 219.71 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4311ef-40e2-4a73-bd83-2f3682d2ab73")
+	)
+	(wire
+		(pts
+			(xy 229.87 60.96) (xy 234.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d288ef23-22ee-4617-a774-b7c715f8927e")
+	)
+	(wire
+		(pts
+			(xy 130.81 55.88) (xy 135.89 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e008cc8a-bb95-4718-b536-cae0337eb569")
+	)
+	(wire
+		(pts
+			(xy 227.33 60.96) (xy 229.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43fea7e-d146-460e-85aa-7f3afa0af2ff")
+	)
+	(wire
+		(pts
+			(xy 143.51 43.18) (xy 143.51 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ae76ad-8c9f-4e88-a2c2-7ffe4a3d51ba")
+	)
+	(wire
+		(pts
+			(xy 193.04 58.42) (xy 204.47 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fdd8b1-b920-434f-9c2d-6c4a951eb084")
 	)
 	(wire
 		(pts
@@ -1148,6 +1616,26 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 48.26) (xy 256.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef3a2b0c-ccd7-4118-9d21-3bcc8785aea0")
+	)
+	(wire
+		(pts
+			(xy 143.51 55.88) (xy 154.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b73843-6326-41da-aaf0-c7908bdcdaa6")
+	)
+	(wire
+		(pts
 			(xy 39.37 67.31) (xy 54.61 67.31)
 		)
 		(stroke
@@ -1155,6 +1643,138 @@
 			(type default)
 		)
 		(uuid "f1874c7a-2a28-4015-b5b5-27f20d5f78ce")
+	)
+	(global_label "Vmic1"
+		(shape input)
+		(at 269.24 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38167645-cc81-4d9f-a98d-3f514931ca90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBias"
+		(shape input)
+		(at 259.08 55.88 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a1fa44d-e2c7-480d-8eb1-4b147bac620e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.08 47.7543 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBias"
+		(shape input)
+		(at 198.12 63.5 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64c6e161-d880-4e90-ac4c-889625f176c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.12 71.6257 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBias"
+		(shape input)
+		(at 229.87 73.66 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68d31cc2-67b8-4681-86c1-f2ca27b45c13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.87 81.7857 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vout"
+		(shape input)
+		(at 114.3 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ee1a973-69d1-4c12-8c32-4ba62fece075")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.2025 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBias"
+		(shape input)
+		(at 130.81 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "900ac009-63eb-425b-a83f-10f6403469f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 76.7057 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VBias"
 		(shape input)
@@ -1219,6 +1839,390 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "VBias"
+		(shape input)
+		(at 160.02 50.8 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1c1699d-d812-448e-bca1-14f5acae40da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.02 42.6743 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBias"
+		(shape input)
+		(at 180.34 71.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8ae3287-9bbe-468a-aabf-84ef52a7160f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 79.2457 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBias"
+		(shape input)
+		(at 148.59 60.96 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce46649a-4e36-41af-9571-0cf0fad6eda4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 69.0857 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBias"
+		(shape input)
+		(at 247.65 66.04 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf196a45-45de-4763-b9ee-0f33bddd3d76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.65 74.1657 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBias"
+		(shape input)
+		(at 209.55 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2f2fed2-4891-43f6-a555-a8d8f4d1a370")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.55 45.2143 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00d96b02-328d-492c-a903-3cdf0df87db5")
+		(property "Reference" "R6"
+			(at 153.67 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 153.67 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ce3e635-4643-491f-a9c8-ae8d34bba5f8")
+		)
+		(pin "2"
+			(uuid "8c9db0c7-fb8b-46ad-82e0-60c348ddbec3")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14b39996-0a30-4dc9-b6f5-d66fe23077e9")
+		(property "Reference" "C4"
+			(at 189.23 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 189.23 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 57.4548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6db61c73-be63-45f9-9f86-bfc3661ea133")
+		)
+		(pin "1"
+			(uuid "9f5e22c4-da09-4c67-9407-870e00e4570f")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "296610d0-49c4-4867-b72e-c97e4895538f")
+		(property "Reference" "C5"
+			(at 196.85 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 196.85 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 29.5148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "371db276-b9a9-453c-987b-6b0dadf76426")
+		)
+		(pin "1"
+			(uuid "dbce1404-deb8-40a0-93ed-911012699964")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b115203-1741-4176-9dd8-d738a259e32f")
+		(property "Reference" "R8"
+			(at 182.88 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 182.88 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.118 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18c6ce0d-cb8d-4bba-9bf9-26b9f1de01e6")
+		)
+		(pin "2"
+			(uuid "b7b286a1-fd15-4841-bcd3-2f89c8791c27")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "R8")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1294,6 +2298,149 @@
 			(project ""
 				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 160.02 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fd7e932-d285-4bca-a380-800d07a1afa9")
+		(property "Reference" "#PWR09"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 160.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9e23a0d-2694-4972-9e94-cc29fda5b222")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV6001DCK")
+		(at 209.55 60.96 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66c7bb34-2f54-4f56-8c36-77be3175ed92")
+		(property "Reference" "U4"
+			(at 224.79 67.3802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV6001DCK"
+			(at 224.79 64.8402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 214.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv6001.pdf"
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353"
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "245015e3-67c3-4513-ab16-abd3c48f16e3")
+		)
+		(pin "5"
+			(uuid "21e10c76-29a7-44d4-b1fa-19099f371792")
+		)
+		(pin "4"
+			(uuid "b03e2283-6fa2-4a95-a3d6-c84bafe1673b")
+		)
+		(pin "3"
+			(uuid "bb20ae32-4829-43aa-862b-4b375bb5671d")
+		)
+		(pin "2"
+			(uuid "074728a0-5d82-4173-9be3-58a47e02ffc6")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1447,6 +2594,74 @@
 			(project ""
 				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d4f27a5-d79c-439c-b667-e2dfe267ca5d")
+		(property "Reference" "C3"
+			(at 147.32 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 147.32 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 26.9748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c80ec09-c488-4b4a-a9f4-de889ac007e6")
+		)
+		(pin "1"
+			(uuid "f5f125b9-cf1f-4eab-96da-614bacb109d1")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1668,6 +2883,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 238.76 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e028eaa-27d8-4910-af00-f116bde580a0")
+		(property "Reference" "C6"
+			(at 238.76 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 238.76 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 59.9948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7ee4336-4f88-4960-b1bd-3b07f3f94098")
+		)
+		(pin "1"
+			(uuid "a26541d9-f091-46ce-a662-364b25d5bb15")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 26.67 45.72 0)
 		(unit 1)
@@ -1740,6 +3023,74 @@
 			(project ""
 				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 252.73 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99c7c7dc-e8a4-44b2-b966-f195124ee625")
+		(property "Reference" "R12"
+			(at 252.73 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 252.73 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9794da70-c940-417e-bc55-af228533b427")
+		)
+		(pin "2"
+			(uuid "2c232482-1531-4e1a-87f1-ad448ba53c4c")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1878,6 +3229,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 173.99 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa20e3f7-4354-4e81-bf56-2e0ba7a25605")
+		(property "Reference" "R7"
+			(at 173.99 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 173.99 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7bd1248-3cc5-434d-9e2c-00d73f8aeafa")
+		)
+		(pin "2"
+			(uuid "7b403616-a28c-4e53-9a97-09c375269cc3")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 26.67 62.23 0)
 		(unit 1)
@@ -1938,6 +3357,430 @@
 			(project ""
 				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bae84f56-997b-4b3f-9c81-102d65b8398f")
+		(property "Reference" "R4"
+			(at 124.46 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 124.46 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "582d12e6-6654-43b6-9b1d-f43bd8af3eed")
+		)
+		(pin "2"
+			(uuid "ee2b2af6-7184-4f7e-8fad-71b289ae449d")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 246.38 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3d628ee-e92d-4ede-9c7a-6f89fdb98acb")
+		(property "Reference" "C7"
+			(at 246.38 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 246.38 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 32.0548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 246.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2405cb3-c89b-47e7-977c-e5bba4deaaf7")
+		)
+		(pin "1"
+			(uuid "33c40e95-046c-4b24-b45c-db38df8cdeb6")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV6001DCK")
+		(at 160.02 58.42 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7c8c4cb-b0c7-41b4-8a23-6fa2eb7e9daa")
+		(property "Reference" "U3"
+			(at 175.26 64.8402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV6001DCK"
+			(at 175.26 62.3002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 165.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv6001.pdf"
+			(at 160.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353"
+			(at 160.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15ac5ce3-666e-4785-b99e-a22a002178a7")
+		)
+		(pin "5"
+			(uuid "229f702e-927a-41bd-9d6b-c0bc28981474")
+		)
+		(pin "4"
+			(uuid "96cac670-2115-4c17-8533-03cf782dd9ca")
+		)
+		(pin "3"
+			(uuid "5471cc05-46fc-447b-895f-0df1e8e9c70b")
+		)
+		(pin "2"
+			(uuid "2cb2ecfa-ff7b-4733-87f9-d67de66486f6")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 209.55 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d14bfe22-9f63-4717-948d-328a20b8f2dc")
+		(property "Reference" "#PWR013"
+			(at 209.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 209.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 209.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ed606b8-3852-4722-a011-842459e02c4c")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8f72456-afeb-40bb-826a-3b3aba1378a5")
+		(property "Reference" "R9"
+			(at 203.2 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 203.2 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62443123-6213-4ea6-ba71-bdf37ccb825e")
+		)
+		(pin "2"
+			(uuid "812dfea2-3997-4a1d-b324-5accdc6df6c6")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV6001DCK")
+		(at 259.08 63.5 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddaf3b3d-7ff5-405a-b1d8-605fd743035c")
+		(property "Reference" "U5"
+			(at 274.32 69.9202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV6001DCK"
+			(at 274.32 67.3802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 264.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv6001.pdf"
+			(at 259.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353"
+			(at 259.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80d45722-aefd-4d80-be6f-0fcd1bec1a48")
+		)
+		(pin "5"
+			(uuid "e4f54577-ebcc-41bb-b743-68c9be3c73ae")
+		)
+		(pin "4"
+			(uuid "d5ff0bbf-dfe2-4e40-a49f-0c4576baf3e6")
+		)
+		(pin "3"
+			(uuid "7542c2b1-b551-42ea-b6f0-8b9c52ba5f91")
+		)
+		(pin "2"
+			(uuid "85f75d57-b6a7-4c12-b6f3-96788c6eade9")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2079,6 +3922,348 @@
 			(project ""
 				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5f806cf-12ed-4115-9c1b-a6a2edf41d05")
+		(property "Reference" "C2"
+			(at 139.7 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 139.7 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 54.9148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5117702-e0aa-4d90-b0de-6d52e8e23d87")
+		)
+		(pin "1"
+			(uuid "bc5ae6dd-7e53-4126-9325-bf134f8c296c")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6404a84-d28d-4851-9135-daf49afd2cc9")
+		(property "Reference" "R5"
+			(at 133.35 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 133.35 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.588 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93ff4f38-e52f-4aa6-ac58-9ec795b68850")
+		)
+		(pin "2"
+			(uuid "76181a17-355a-4263-9eb9-056c15bcbc1d")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f14d5b49-8cfd-4fdb-9f83-7e713be3cc86")
+		(property "Reference" "R10"
+			(at 223.52 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 223.52 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3d25a5e-1b3a-4552-9c07-0e4947f54edd")
+		)
+		(pin "2"
+			(uuid "191d7c59-096a-4ef5-ac86-a0d96338f76b")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 259.08 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f15c08a4-b234-42c2-a966-acbe2cc5d487")
+		(property "Reference" "#PWR017"
+			(at 259.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 259.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 259.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e08a8203-9fd6-4d8e-869d-d649f12742e0")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 229.87 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f81569d4-3507-4706-8b47-217bd23b73a4")
+		(property "Reference" "R11"
+			(at 232.41 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 232.41 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.648 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0846797d-c165-4df4-83cd-88d4329838ef")
+		)
+		(pin "2"
+			(uuid "a71d1a9a-efff-4de2-9c2f-90a860752df7")
+		)
+		(instances
+			(project "AcousticConditioning"
+				(path "/ef99d339-a5e0-4da9-9c49-82ea5f40b959"
+					(reference "R11")
 					(unit 1)
 				)
 			)
